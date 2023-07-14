@@ -2,9 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
-const el = document.getElementById('root')
-const r = ReactDOM.createRoot(el)
+const el = document.getElementById("root");
+const r = ReactDOM.createRoot(el);
 
-r.render(
-    <App/>
-)
+r.render(<App />);
