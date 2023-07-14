@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+}
+h1 {
+  justify-content: center;
+  margin: auto;
+}
+
+p {
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+

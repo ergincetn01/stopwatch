@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import "./Style/App.css";
+import Stopwatch from "./Components/Stopwatch"
 function App() {
+  const [min, setMin] = useState("00");
+  const [sec, setSec] = useState("00");
+  const [hour, setHour] = useState("00");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1>STOPWATCH APP</h1>
+      <Stopwatch/>
     </div>
   );
 }
