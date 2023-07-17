@@ -57,12 +57,12 @@ function App() {
       reset();
     }
     updatedMs++;
-    return setTime({ h: updatedH, m: updatedM, s: updatedS, ms: 0 });
+    return setTime({ h: updatedH, m: updatedM, s: updatedS, ms: updatedMs});
   };
 
   return (
     <div className="app">
-      <h1>STOPWATCH APP</h1>
+      <h1>Stopwatch App</h1>
       <Stopwatch
         reset={reset}
         stopVal={stopVal}

@@ -1,11 +1,15 @@
 .main {
-  margin: auto;
+  margin: auto; 
+  align-items: center;
   justify-content: center;
   padding: 2px;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
   width: 500px;
   border-radius: 7px;
   height: 300px;
+ 
 }
 
 .clock-container {
@@ -14,12 +18,7 @@
   flex-direction: row;
   margin: auto;
 }
-select option:hover {
-  background-color: red;
-}
-.option:hover {
-  background-color: darkblue;
-}
+
 .sq {
   display: flex;
   justify-content: center;
@@ -32,71 +31,16 @@ select option:hover {
   width: 70px;
   height: 70px;
 }
-span {
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-}
-.lbl {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  margin: auto;
-}
-.item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1px;
-  padding: 15px;
-}
-
-.clock-setter {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: auto;
-}
-.hourSetter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-}
-.minSetter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-}
-.secSetter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
-}
-
-select {
-  background-color: black;
-  color: white;
-}
-.colon {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-}
 .buttons {
   display: flex;
   flex-direction: row;
   margin: auto;
   justify-content: center;
+  padding: "15px";
 }
 .btn-reset {
   width: 100px;
+  height: 50px;
   background-color: red;
   color: white;
   border-color: red;
@@ -111,6 +55,7 @@ select {
   width: 100px;
   background-color: purple;
   color: white;
+  height: 50px;
   border-color: purple;
   border-radius: 5px;
   box-shadow: none;
@@ -124,6 +69,8 @@ select {
 .btn-start {
   background-color: lightgreen;
   color: black;
+  width: 100px;
+  height: 50px;
   border-radius: 5px;
   border-color: green;
   box-shadow: none;

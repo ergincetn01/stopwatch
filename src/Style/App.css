@@ -3,14 +3,11 @@
   flex-direction: column;
   margin: auto;
   justify-content: center;
+  align-items: center;
 }
 h1 {
   justify-content: center;
   margin: auto;
+  font-family: 'Arial Black';
 }
 
-p {
-  margin: auto;
-  justify-content: center;
-  display: flex;
-}

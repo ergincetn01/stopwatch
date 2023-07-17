@@ -9,12 +9,6 @@ function Stopwatch({ time, start, stop, stopVal, status, reset }) {
         <div className="sq">{time.s}</div>
       </div>
 
-      <div className="lbl">
-        <div className="item">HOUR</div>
-        <div className="item">MINUTES</div>
-        <div className="item">SECONDS</div>
-      </div>
-
       <div className="buttons">
         <button className="btn-reset" onClick={reset}>
           Reset Clock
