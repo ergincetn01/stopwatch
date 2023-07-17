@@ -25,11 +25,12 @@
   align-items: center;
   margin: 5px;
   padding: 10px;
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
   border-radius: 5px;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 .buttons {
   display: flex;
@@ -40,42 +41,44 @@
 }
 .btn-reset {
   width: 100px;
+  color: blue;
+  background-color: white;
   height: 50px;
-  background-color: red;
-  color: white;
-  border-color: red;
+  border: 1px solid blue;
   border-radius: 5px;
   box-shadow: none;
 }
 .btn-reset:hover {
-  background-color: darkred;
-  border-color: darkred;
+  background-color: lightblue;
+  border-color: blue;
+  box-shadow: none;
 }
 .btn-stop {
   width: 100px;
-  background-color: purple;
-  color: white;
+  color: blue;
+  background-color: white;
   height: 50px;
-  border-color: purple;
+  border: 1px solid blue;
   border-radius: 5px;
   box-shadow: none;
 }
 .btn-stop:hover {
-  background-color: crimson;
-  border-color: crimson;
+  background-color: lightblue;
+  border-color: blue;
   box-shadow: none;
 }
 
 .btn-start {
-  background-color: lightgreen;
-  color: black;
   width: 100px;
+  color: blue;
+  background-color: white;
   height: 50px;
+  border: 1px solid blue;
   border-radius: 5px;
-  border-color: green;
   box-shadow: none;
 }
 .btn-start:hover {
-  background-color: green;
-  color: white;
+  background-color: lightblue;
+  border-color: blue;
+  box-shadow: none;
 }

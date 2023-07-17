@@ -6,6 +6,7 @@
   align-items: center;
 }
 h1 {
+  color: blue;
   justify-content: center;
   margin: auto;
   font-family: 'Arial Black';
